@@ -1,0 +1,48 @@
+.HomeScreen {
+  color: #14342b;
+  background-color: #7cae7a;
+  min-height: 100vh;
+  border: 1px solid transparent;
+}
+
+.Container {
+  width: 95vw;
+  max-width: 900px;
+  margin: 1rem auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.Title {
+  color: white;
+  padding: 2rem 4rem;
+  background: #14342b;
+  border-radius: 15px;
+}
+
+.Buttons {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: white;
+  background-color: #14342b;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button a:visited {
+  color: white;
+}
