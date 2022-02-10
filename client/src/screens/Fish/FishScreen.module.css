@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #dd99bb;
+  background-color: #81f1f7;
 }
 
 .Container {
@@ -15,7 +15,7 @@
 .Title {
   font-size: 2rem;
   color: white;
-  background-color: #8a3033;
+  background-color: #4d50f8;
   padding: 1rem 2rem;
   border-radius: 15px;
   text-align: center;

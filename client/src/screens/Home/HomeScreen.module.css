@@ -1,6 +1,6 @@
 .HomeScreen {
-  color: #14342b;
-  background-color: #7cae7a;
+  color: #c48d3f;
+  background-color: #fff563;
   min-height: 100vh;
   border: 1px solid transparent;
 }
@@ -20,7 +20,7 @@ main {
 .Title {
   color: white;
   padding: 2rem 4rem;
-  background: #14342b;
+  background: #c48d3f;
   border-radius: 15px;
 }
 
@@ -35,7 +35,7 @@ button {
   padding: 1rem 2rem;
   border-radius: 10px;
   color: white;
-  background-color: #14342b;
+  background-color: #c48d3f;
 }
 
 button a {
