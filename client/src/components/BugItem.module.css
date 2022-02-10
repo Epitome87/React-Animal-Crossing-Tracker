@@ -1,0 +1,35 @@
+.BugItem {
+  font-size: 1rem;
+  color: #14342b;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 20%;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.2s ease-in-out;
+}
+
+.BugItem:hover {
+  transform: scale(1.03);
+}
+
+.BugItem:active {
+  transform: scale(0.97);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+}
+
+.Name {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.Price {
+}
+
+.Location {
+}
+
+.Time {
+}
