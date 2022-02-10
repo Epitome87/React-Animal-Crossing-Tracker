@@ -1,0 +1,31 @@
+.FossilScreen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #ecad86;
+}
+
+.Container {
+  width: 95vw;
+  max-width: 900px;
+  margin: 1rem auto;
+}
+
+.Title {
+  font-size: 2rem;
+  color: white;
+  background-color: #4e2b16;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.FishList {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: center;
+}
