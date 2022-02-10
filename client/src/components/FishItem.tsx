@@ -2,14 +2,14 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './FishItem.module.css';
 
-interface Props {
+interface FishItemProps {
   name: string;
   price: number;
   location: string;
   time: string;
 }
 
-const FishItem: React.FC<Props> = ({ name, price, location, time }) => {
+const FishItem  = ({ name, price, location, time } : FishItemProps) => {
   const navigate = useNavigate();
 
   const handleOnClick = () => {
